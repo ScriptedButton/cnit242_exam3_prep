@@ -9,15 +9,15 @@ function App() {
 
     const images = {
         components: [
-            "images/application.png",
-            "images/client_spooler.png",
-            "images/gdi.png",
-            "images/gdi_small.png",
-            "images/print_driver.png",
-            "images/print_driver_small.png",
-            "images/print_monitor.png",
-            "images/print_router.png",
-            "images/print_spooler.png"
+            "/public/images/application.png",
+            "/public/images/client_spooler.png",
+            "/public/images/gdi.png",
+            "/public/images/gdi_small.png",
+            "/public/images/print_driver.png",
+            "/public/images/print_driver_small.png",
+            "/public/images/print_monitor.png",
+            "/public/images/print_router.png",
+            "/public/images/print_spooler.png"
         ]
     };
 
@@ -25,9 +25,9 @@ function App() {
     return (
         <div className="App">
             <Stack align={"center"} m={10}>
-                <Image sx={{pointerEvents: "none"}} src={"images/diagram_blank.png"} fit="contain" alt={"diagram_blank"}
+                <Image sx={{pointerEvents: "none"}} src={"/public/images/diagram_blank.png"} fit="contain" alt={"diagram_blank"}
                        height={671} width={1038}/>
-                <Image sx={{pointerEvents: "none", position: "absolute", display: (showKey ? undefined : "none")}} src={"images/answer_key.png"} fit="contain" alt={"diagram_key"} height={671} width={1038}/>
+                <Image sx={{pointerEvents: "none", position: "absolute", display: (showKey ? undefined : "none")}} src={"/public/images/answer_key.png"} fit="contain" alt={"diagram_key"} height={671} width={1038}/>
                 <Group>
                     {images.components.map((image, index) => {
                         return <Draggable>
