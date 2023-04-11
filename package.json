@@ -2,7 +2,7 @@
   "name": "cnit242_exam3_prep",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://scriptedbutton.github.io/cnit242_exam3_prep",
+  "homepage": "http://scriptedbutton.github.io/cnit242_exam3_prep",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@mantine/core": "^6.0.7",
